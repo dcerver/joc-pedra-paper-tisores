@@ -25,6 +25,9 @@ radio.onReceivedNumber(function (receivedNumber) {
         }
     }
 })
+radio.onReceivedString(function (receivedString) {
+	
+})
 input.onGesture(Gesture.Shake, function () {
     Juego = randint(1, 3)
     radio.sendNumber(Juego)
